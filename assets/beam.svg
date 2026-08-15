@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 44" width="1200" height="44">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#67e8f9" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="pulse" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="b8"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="b3"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+
+  <line x1="40" y1="22" x2="1160" y2="22" stroke="url(#lg)" stroke-width="2.4" stroke-dasharray="1 19" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" values="0;-1160" dur="9s" repeatCount="indefinite"/>
+  </line>
+
+  <circle r="9" fill="url(#pulse)" filter="url(#b8)">
+    <animateMotion path="M 40 22 L 1160 22" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3.5" fill="#ffffff">
+    <animateMotion path="M 40 22 L 1160 22" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4.5" fill="url(#pulse)" filter="url(#b3)">
+    <animateMotion path="M 40 22 L 1160 22" dur="6s" begin="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="64" cy="22" r="2" fill="#c4b5fd"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite"/></circle>
+  <circle cx="1136" cy="22" r="2" fill="#67e8f9"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" begin="1s" repeatCount="indefinite"/></circle>
+</svg>

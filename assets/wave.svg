@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 190" width="1200" height="190">
+  <defs>
+    <linearGradient id="waveGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b2f80"/>
+      <stop offset="1" stop-color="#0d0524"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="tw" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#c4b5fd" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#c4b5fd" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="b12"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <rect width="1200" height="190" fill="#05010f"/>
+
+  <path d="M0 128 C 200 62, 400 182, 600 132 C 800 82, 1000 172, 1200 112 L1200 190 L0 190 Z" fill="url(#waveGrad)"/>
+  <path d="M0 128 C 200 62, 400 182, 600 132 C 800 82, 1000 172, 1200 112 L1200 114 C 1000 174, 800 84, 600 134 C 400 184, 200 64, 0 130 Z" fill="url(#waveGrad2)" opacity="0.7">
+    <animateTransform attributeName="transform" type="translate" values="0 0; -70 0; 0 0" dur="14s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0 106 C 220 56, 420 190, 640 120 C 850 60, 1020 150, 1200 108 L0 108 Z" fill="none" stroke="#8b5cf6" stroke-width="1.4" opacity="0.8">
+    <animate attributeName="stroke-dashoffset" values="0;-1200" dur="12s" repeatCount="indefinite"/>
+  </path>
+
+  <circle cx="150" cy="60" r="2" fill="#c4b5fd"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" repeatCount="indefinite"/></circle>
+  <circle cx="420" cy="36" r="1.4" fill="#67e8f9"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" begin=".9s" repeatCount="indefinite"/></circle>
+  <circle cx="760" cy="54" r="1.8" fill="#f9a8d4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.8s" begin="1.6s" repeatCount="indefinite"/></circle>
+  <circle cx="980" cy="30" r="2" fill="#93c5fd"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" begin=".5s" repeatCount="indefinite"/></circle>
+  <circle cx="600" cy="22" r="2.2" fill="#f5d0fe"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" begin="2.2s" repeatCount="indefinite"/></circle>
+  <circle cx="155" cy="46" r="3" fill="url(#tw)" filter="url(#b12)"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" repeatCount="indefinite"/></circle>
+  <circle cx="760" cy="40" r="3" fill="url(#tw)" filter="url(#b12)"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.8s" begin="1.6s" repeatCount="indefinite"/></circle>
+
+  <g font-family="ui-monospace,'Cascadia Code',Consolas,monospace" font-size="15" letter-spacing="6" fill="#8b5cf6" opacity="0.75">
+    <text x="600" y="94" text-anchor="middle">// END OF TRANSMISSION</text>
+  </g>
+</svg>
