@@ -101,6 +101,8 @@ From real-time collaboration systems to mobile apps that ship to the Play Store 
 
 <img src="assets/beam.svg" width="100%" alt="divider" />
 
+<div align="center">
+
 <h3 align="center" id="stack-orbit" style="font-family:ui-monospace,'Cascadia Code',Consolas,monospace;font-size:13px;letter-spacing:8px;color:#8b5cf6;margin:26px 0 6px 0">// MODULE 02 — STACK ORBIT</h3>
 
 <table>
@@ -130,6 +132,7 @@ From real-time collaboration systems to mobile apps that ship to the Play Store 
 </table>
 
 <br/>
+</div>
 
 <img src="assets/beam.svg" width="100%" alt="divider" />
 
@@ -206,4 +209,3 @@ Building something ambitious — an app that needs to move, a system that needs 
 <br/>
 
 <img src="assets/wave.svg" width="100%" alt="wave footer" />
-
