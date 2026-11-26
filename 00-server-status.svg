@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="465" viewBox="0 0 640 465" role="img" aria-label="whoami — Jamal Ademola, full-stack and mobile developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d0524"/><stop offset="1" stop-color="#070316"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".5" stop-color="#22d3ee" stop-opacity=".5"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <radialGradient id="aura" cx=".85" cy="0" r=".9"><stop offset="0" stop-color="#7c3aed" stop-opacity=".28"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#8b5cf6" stroke-opacity=".06"/></pattern>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a5f3fc" stop-opacity="0"/><stop offset="1" stop-color="#a5f3fc" stop-opacity=".07"/></linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="638" height="463" rx="18"/></clipPath>
+  </defs>
+  <style>
+    text{font:14.5px ui-monospace,'Cascadia Code','SF Mono',Menlo,Consolas,monospace}
+    .l{animation:t .35s ease-out both}
+    .h{font-size:12px;letter-spacing:3px;fill:#64748b}
+    .cur{animation:t .1s 2.86s both, b 1s 2.86s step-end infinite}
+    .sw{animation:sw 6s linear infinite}
+    .live{animation:b 1.6s ease-in-out infinite}
+    @keyframes t{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+    @keyframes b{0%,100%{opacity:1}50%{opacity:0}}
+    @keyframes sw{0%{transform:translateY(0)}100%{transform:translateY(645px)}}
+  </style>
+  <rect x="1" y="1" width="638" height="463" rx="18" fill="url(#bg)"/>
+  <g clip-path="url(#card)">
+    <rect width="640" height="465" fill="url(#grid)"/>
+    <rect width="640" height="465" fill="url(#aura)"/>
+    <rect class="sw" y="-140" width="640" height="120" fill="url(#scan)"/>
+  </g>
+  <rect x="1" y="1" width="638" height="463" rx="18" fill="none" stroke="url(#edge)" stroke-opacity=".55"/>
+  <circle cx="28" cy="26" r="6" fill="#ff5f57"/><circle cx="48" cy="26" r="6" fill="#febc2e"/><circle cx="68" cy="26" r="6" fill="#28c840"/>
+  <text x="320" y="30" text-anchor="middle" class="h">jamal@bitmates: ~</text>
+  <circle class="live" cx="566" cy="26" r="4" fill="#4ade80"/>
+  <text x="576" y="30" class="h" style="fill:#4ade80">LIVE</text>
+  <line x1="0" y1="46" x2="640" y2="46" stroke="#8b5cf6" stroke-opacity=".2"/>
+  <text x="34" y="74" class="l" style="animation-delay:.3s" xml:space="preserve"><tspan fill="#8b5cf6">❯</tspan><tspan fill="#e2e8f0"> whoami</tspan><tspan fill="#475569"> --verbose</tspan></text>
+    <text x="34" y="104" class="l" style="animation-delay:0.90s" xml:space="preserve"><tspan fill="#f9a8d4">role       </tspan><tspan fill="#475569">: </tspan><tspan fill="#e9d5ff">full-stack &amp; mobile developer</tspan></text>
+  <text x="34" y="131" class="l" style="animation-delay:1.06s" xml:space="preserve"><tspan fill="#f9a8d4">base       </tspan><tspan fill="#475569">: </tspan><tspan fill="#a5f3fc">Lagos, Nigeria </tspan><tspan fill="#f472b6">→</tspan><tspan fill="#a5f3fc"> global clients</tspan></text>
+  <text x="34" y="158" class="l" style="animation-delay:1.22s" xml:space="preserve"><tspan fill="#f9a8d4">experience </tspan><tspan fill="#475569">: </tspan><tspan fill="#86efac">4+ years</tspan><tspan fill="#a5f3fc">, production-grade</tspan></text>
+  <text x="34" y="185" class="l" style="animation-delay:1.38s" xml:space="preserve"><tspan fill="#f9a8d4">web        </tspan><tspan fill="#475569">: </tspan><tspan fill="#a5f3fc">Next.js · React · NestJS · Express</tspan></text>
+  <text x="34" y="212" class="l" style="animation-delay:1.54s" xml:space="preserve"><tspan fill="#f9a8d4">mobile     </tspan><tspan fill="#475569">: </tspan><tspan fill="#a5f3fc">React Native · Expo</tspan></text>
+  <text x="34" y="239" class="l" style="animation-delay:1.70s" xml:space="preserve"><tspan fill="#f9a8d4">android    </tspan><tspan fill="#475569">: </tspan><tspan fill="#c4b5fd">Kotlin</tspan><tspan fill="#a5f3fc"> · Android SDK</tspan></text>
+  <text x="34" y="266" class="l" style="animation-delay:1.86s" xml:space="preserve"><tspan fill="#f9a8d4">systems    </tspan><tspan fill="#475569">: </tspan><tspan fill="#c4b5fd">C</tspan><tspan fill="#a5f3fc"> · low-level, close to the metal</tspan></text>
+  <text x="34" y="293" class="l" style="animation-delay:2.02s" xml:space="preserve"><tspan fill="#f9a8d4">data       </tspan><tspan fill="#475569">: </tspan><tspan fill="#a5f3fc">PostgreSQL · Supabase · MongoDB · Redis</tspan></text>
+  <text x="34" y="320" class="l" style="animation-delay:2.18s" xml:space="preserve"><tspan fill="#f9a8d4">motion     </tspan><tspan fill="#475569">: </tspan><tspan fill="#a5f3fc">GSAP · Framer Motion · Three.js</tspan></text>
+  <text x="34" y="347" class="l" style="animation-delay:2.34s" xml:space="preserve"><tspan fill="#f9a8d4">philosophy </tspan><tspan fill="#475569">: </tspan><tspan fill="#86efac">"if it doesn't feel alive,</tspan></text>
+  <text x="34" y="374" class="l" style="animation-delay:2.50s" xml:space="preserve"><tspan xml:space="preserve">             </tspan><tspan fill="#86efac">it's not finished."</tspan></text>
+  <text x="34" y="415" class="l" style="animation-delay:2.86s"><tspan fill="#8b5cf6">❯</tspan></text>
+  <rect class="cur" x="52" y="401" width="9" height="17" fill="#a5f3fc"/>
+</svg>
