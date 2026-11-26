@@ -1,36 +1,200 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="78" viewBox="0 0 600 78" role="img" aria-label="Module 04 — TELEMETRY">
-  <defs>
-    <linearGradient id="g" x1="0" x2="1">
-      <stop offset="0" stop-color="#a78bfa"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/>
-    </linearGradient>
-    <linearGradient id="rail" x1="0" x2="1">
-      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0"/><stop offset=".5" stop-color="#8b5cf6" stop-opacity=".7"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="beam" x1="0" x2="1">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#a5f3fc"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="c"><rect x="110" y="66" width="380" height="4"/></clipPath>
-    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <style>
-    .k{font:600 12px ui-monospace,'Cascadia Code','SF Mono',Menlo,Consolas,monospace;letter-spacing:6px;fill:#64748b}
-    .t{font:700 25px ui-monospace,'Cascadia Code','SF Mono',Menlo,Consolas,monospace;letter-spacing:5px;fill:url(#g)}
-    .d{fill:#8b5cf6;animation:p 2s ease-in-out infinite}
-    .d2{animation-delay:1s}
-    .s{animation:s 3.4s cubic-bezier(.6,0,.4,1) infinite}
-    .in{animation:in .9s ease-out both}
-    @keyframes p{0%,100%{opacity:.25}50%{opacity:1}}
-    @keyframes s{0%{transform:translateX(0)}100%{transform:translateX(460px)}}
-    @keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-  </style>
-  <g class="in">
-    <text x="300" y="19" text-anchor="middle" class="k">// MODULE 04</text>
-    <text x="300" y="52" text-anchor="middle" class="t" filter="url(#glow)">TELEMETRY</text>
-  </g>
-  <rect x="110" y="67.5" width="380" height="1" fill="url(#rail)"/>
-  <g clip-path="url(#c)"><rect class="s" x="30" y="66" width="80" height="4" rx="2" fill="url(#beam)"/></g>
-  <circle class="d" cx="100" cy="68" r="2.5"/>
-  <circle class="d d2" cx="500" cy="68" r="2.5"/>
-</svg>
+<!--
+  ─────────────────────────────────────────────────────────────────────────────
+  JAMAL ADEMOLA — PORTFOLIO README v5.0
+  ─────────────────────────────────────────────────────────────────────────────
+  ⚠️  GitHub strips ALL style="" attributes, <style> tags and classes from
+      READMEs. That's why every visual effect here lives inside the SVGs in
+      ./assets (CSS animations inside an SVG still run on GitHub).
+  📱  Mobile: everything is a single column. Images have fixed widths, and
+      GitHub's own CSS (img { max-width:100% }) shrinks them on small screens.
+      Badges are separate <img>s, so they wrap onto new lines on a phone.
+  ✏️  To update links, search for "@CONFIG".
+  🖼️  Your own hero.svg, beam.svg, orbit.svg and wave.svg are reused as-is.
+      If orbit.svg has a hard-coded icon list, add Kotlin + C to it too.
+  🐍  Snake: commit .github/workflows/snake.yml, run it once from the
+      Actions tab, then uncomment the snake block near the bottom.
+  ─────────────────────────────────────────────────────────────────────────────
+-->
+
+<div align="center">
+
+<img src="assets/hero.svg" width="100%" alt="Jamal Ademola — Full-Stack & Mobile Developer" />
+
+<a href="https://bitmates.tech">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=600&height=46&lines=Full-stack+%26+mobile+developer;Next.js+%C2%B7+NestJS+%C2%B7+React+Native;Native+Android+in+Kotlin;Writing+C+close+to+the+metal;If+it+doesn%27t+feel+alive%2C+it%27s+not+finished." width="600" alt="Typing intro" />
+</a>
+
+<!-- @CONFIG: socials -->
+<p>
+  <a href="https://bitmates.tech"><img src="https://img.shields.io/badge/Portfolio-bitmates.tech-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1E0B3D" alt="Portfolio" /></a>
+  <a href="https://github.com/Jamal-09"><img src="https://img.shields.io/badge/GitHub-Jamal--09-334155?style=for-the-badge&logo=github&logoColor=white&labelColor=0F172A" alt="GitHub" /></a>
+  <a href="https://linkedin.com/in/jamal-ademola-9b623236b"><img src="https://img.shields.io/badge/LinkedIn-Connect-0891B2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTQgM2gxNmExIDEgMCAwIDEgMSAxdjE2YTEgMSAwIDAgMS0xIDFINGExIDEgMCAwIDEtMS0xVjRhMSAxIDAgMCAxIDEtMXptMi41IDYuNVYxOGgyLjdWOS41ek03Ljg1IDUuM2ExLjU1IDEuNTUgMCAxIDAgMCAzLjEgMS41NSAxLjU1IDAgMCAwIDAtMy4xek0xMSA5LjVWMThoMi43di00LjRjMC0xLjIuNC0yIDEuNS0yczEuNC45IDEuNCAyVjE4SDE5di01YzAtMi41LTEuMy0zLjctMy4yLTMuNy0xLjQgMC0yLjEuNy0yLjQgMS4zVjkuNXoiLz48L3N2Zz4%3D&labelColor=083344" alt="LinkedIn" /></a>
+  <a href="https://x.com/jamal09adekunle"><img src="https://img.shields.io/badge/X-@jamal09adekunle-334155?style=for-the-badge&logo=x&logoColor=white&labelColor=0F172A" alt="X / Twitter" /></a>
+  <a href="https://bitmates.tech/resume.pdf"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-PDF-DB2777?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTYgMmg4bDYgNnYxM2ExIDEgMCAwIDEtMSAxSDZhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTcgMS41VjloNS41ek04IDEydjEuNmg4VjEyem0wIDMuNFYxN2g4di0xLjZ6bTAtNi44djEuNmgzLjVWOC42eiIvPjwvc3ZnPg%3D%3D&labelColor=4A0D2C" alt="Résumé" /></a>
+  <a href="https://bitmates.tech/#contact"><img src="https://img.shields.io/badge/Send-Signal-10B981?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTMgNWgxOGExIDEgMCAwIDEgMSAxdjEyYTEgMSAwIDAgMS0xIDFIM2ExIDEgMCAwIDEtMS0xVjZhMSAxIDAgMCAxIDEtMXptLjggMnYuM2w4LjIgNS40IDguMi01LjRWN3ptMCAyLjdWMTdoMTYuNFY5LjdMMTIgMTUuMXoiLz48L3N2Zz4%3D&labelColor=064E3B" alt="Contact" /></a>
+</p>
+
+<sub>
+<a href="#server-status">SERVER STATUS</a> ✦
+<a href="#whoami">WHOAMI</a> ✦
+<a href="#stack-orbit">STACK</a> ✦
+<a href="#credentials">CREDENTIALS</a> ✦
+<a href="#telemetry">TELEMETRY</a> ✦
+<a href="#initiate-contact">CONTACT</a>
+</sub>
+
+</div>
+
+<img src="assets/beam.svg" width="100%" alt="" />
+
+<!-- ═════════════════════════ MODULE 00 ═════════════════════════ -->
+<div align="center">
+<a id="server-status"></a>
+<img src="assets/headers/00-server-status.svg" width="600" alt="Module 00 — Server Status" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/STATUS-ONLINE-22C55E?style=flat-square&labelColor=0D0524" alt="Online" />
+<img src="https://img.shields.io/badge/OPEN_TO-FREELANCE_%26_FULL--TIME-A78BFA?style=flat-square&labelColor=0D0524" alt="Open to work" />
+<img src="https://img.shields.io/badge/BASE-LAGOS_%E2%86%92_GLOBAL-22D3EE?style=flat-square&labelColor=0D0524" alt="Lagos to global" />
+
+<h3>I'm Jamal — a full-stack & mobile developer who believes<br/>an interface isn't finished until it <i>feels alive</i>.</h3>
+
+</div>
+
+<img src="assets/beam.svg" width="100%" alt="" />
+
+<!-- ═════════════════════════ MODULE 01 ═════════════════════════ -->
+<div align="center">
+<a id="whoami"></a>
+<img src="assets/headers/01-whoami.svg" width="600" alt="Module 01 — Whoami" />
+</div>
+
+<br/>
+
+I'm **Jamal Ademola**, a full-stack & mobile developer with **4+ years** of turning ambitious ideas into fast, beautiful, production-grade software for a global clientele.
+
+My work lives where two obsessions meet: **engineering that scales** and **interfaces that feel alive**. Clean architecture on the backend. GSAP timelines, buttery transitions and pixel-perfect detail on the frontend. And when the job needs to go native, **Kotlin** on Android and **C** when I want to be close to the metal.
+
+From real-time collaboration systems to mobile apps that ship to the Play Store, I handle the whole journey:
+
+<div align="center">
+
+**`concept`** → **`architecture`** → **`deployment`** → **`delight`**
+
+<br/>
+
+<img src="assets/whoami.svg" width="640" alt="whoami — role: full-stack & mobile developer · base: Lagos, Nigeria → global · web: Next.js, React, NestJS, Express · mobile: React Native, Expo · android: Kotlin · systems: C · data: PostgreSQL, Supabase, MongoDB, Redis · motion: GSAP, Framer Motion, Three.js" />
+
+</div>
+
+<img src="assets/beam.svg" width="100%" alt="" />
+
+<!-- ═════════════════════════ MODULE 02 ═════════════════════════ -->
+<div align="center">
+<a id="stack-orbit"></a>
+<img src="assets/headers/02-stack-orbit.svg" width="600" alt="Module 02 — Stack Orbit" />
+
+<br/>
+
+<img src="assets/orbit.svg" width="330" alt="Animated stack orbit" />
+
+<br/><br/>
+
+<sub><code>&nbsp;⟨ WEB ⟩&nbsp;</code></sub><br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind&theme=dark" alt="React, Next.js, TypeScript, JavaScript, Tailwind" />
+
+<sub><code>&nbsp;⟨ BACKEND ⟩&nbsp;</code></sub><br/>
+<img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,graphql,python&theme=dark" alt="Node.js, NestJS, Express, GraphQL, Python" />
+
+<sub><code>&nbsp;⟨ MOBILE · ANDROID · SYSTEMS ⟩&nbsp;</code></sub><br/>
+<img src="https://skillicons.dev/icons?i=kotlin,androidstudio,c,react&theme=dark" alt="Kotlin, Android Studio, C, React Native" /><br/>
+<img src="https://img.shields.io/badge/Kotlin-Native_Android-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+<img src="https://img.shields.io/badge/C-Systems-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
+<img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo" />
+
+<sub><code>&nbsp;⟨ DATA · CLOUD ⟩&nbsp;</code></sub><br/>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,supabase,redis,docker,vercel&theme=dark" alt="PostgreSQL, MongoDB, Supabase, Redis, Docker, Vercel" />
+
+<sub><code>&nbsp;⟨ MOTION ⟩&nbsp;</code></sub><br/>
+<img src="https://skillicons.dev/icons?i=threejs&theme=dark" alt="Three.js" /><br/>
+<img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black" alt="GSAP" />
+<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
+
+<sub><code>&nbsp;⟨ TOOLS ⟩&nbsp;</code></sub><br/>
+<img src="https://skillicons.dev/icons?i=git,github,figma,vscode&theme=dark" alt="Git, GitHub, Figma, VS Code" />
+
+<br/><br/>
+
+**`CORE`** &nbsp; Next.js ✦ NestJS ✦ React Native ✦ Kotlin<br/>
+**`MOTION`** &nbsp; GSAP ✦ Framer Motion ✦ Three.js
+
+</div>
+
+<img src="assets/beam.svg" width="100%" alt="" />
+
+<!-- ═════════════════════════ MODULE 03 ═════════════════════════ -->
+<div align="center">
+<a id="credentials"></a>
+<img src="assets/headers/03-credentials.svg" width="600" alt="Module 03 — Credentials" />
+
+<br/>
+
+<!-- @CONFIG: credentials -->
+
+<a href="https://www.coursera.org/account/accomplishments/verify/68LK965XJ43X"><img src="https://img.shields.io/badge/META-Mobile_Developer_%C2%B7_2026-0668E1?style=for-the-badge&logo=meta&logoColor=white&labelColor=0B1B3D" alt="Meta Mobile Developer — 2026" /></a>
+<a href="https://www.coursera.org/account/accomplishments/verify/9ITHYU38SKLF"><img src="https://img.shields.io/badge/META-Android_Developer_%C2%B7_2026-0668E1?style=for-the-badge&logo=meta&logoColor=white&labelColor=0B1B3D" alt="Meta Android Developer — 2026" /></a>
+<br/>
+<a href="https://certgo.app/c-82e6b759"><img src="https://img.shields.io/badge/%F0%9F%8F%85_HNG_13-Backend_Finalist-DB2777?style=for-the-badge&labelColor=4A0D2C" alt="HNG 13 Backend Finalist" /></a>
+<a href="https://certgo.app/c-965f9d8d"><img src="https://img.shields.io/badge/%F0%9F%8F%85_HNG_13-Mobile_Finalist-DB2777?style=for-the-badge&labelColor=4A0D2C" alt="HNG 13 Mobile Finalist" /></a>
+
+<br/><sub>↳ tap any badge to verify</sub>
+
+</div>
+
+<img src="assets/beam.svg" width="100%" alt="" />
+
+<!-- ═════════════════════════ MODULE 04 ═════════════════════════ -->
+<div align="center">
+<a id="telemetry"></a>
+<img src="assets/headers/04-telemetry.svg" width="600" alt="Module 04 — Telemetry" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=Jamal-09&hide_border=true&border_radius=14&background=0D0524&ring=8B5CF6&fire=F472B6&currStreakNum=E9D5FF&sideNums=A5F3FC&currStreakLabel=A78BFA&sideLabels=A5F3FC&dates=64748B&stroke=2E1065" width="495" alt="GitHub streak" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jamal-09&bg_color=0D0524&color=A5F3FC&line=8B5CF6&point=F472B6&area=true&area_color=8B5CF6&hide_border=true&radius=14&title_color=E9D5FF&custom_title=Contribution%20signal" width="100%" alt="Contribution activity graph" />
+
+<!-- 🐍 Uncomment after the snake workflow has run once:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jamal-09/Jamal-09/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jamal-09/Jamal-09/output/snake-light.svg" />
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/Jamal-09/Jamal-09/output/snake-dark.svg" width="100%" />
+</picture>
+-->
+
+</div>
+
+<img src="assets/beam.svg" width="100%" alt="" />
+
+<!-- ═════════════════════════ FINAL MODULE ═════════════════════════ -->
+<div align="center">
+<a id="initiate-contact"></a>
+
+<a href="https://bitmates.tech/#contact"><img src="assets/contact.svg" width="680" alt="Initiate contact — building something ambitious? The channel is open." /></a>
+
+<br/><br/>
+
+<a href="https://bitmates.tech/#contact"><img src="https://img.shields.io/badge/%E2%9C%89_SEND_SIGNAL-bitmates.tech-10B981?style=for-the-badge&labelColor=064E3B" alt="Send a signal" /></a>
+<a href="https://linkedin.com/in/jamal-ademola-9b623236b"><img src="https://img.shields.io/badge/LinkedIn-DM-0891B2?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTQgM2gxNmExIDEgMCAwIDEgMSAxdjE2YTEgMSAwIDAgMS0xIDFINGExIDEgMCAwIDEtMS0xVjRhMSAxIDAgMCAxIDEtMXptMi41IDYuNVYxOGgyLjdWOS41ek03Ljg1IDUuM2ExLjU1IDEuNTUgMCAxIDAgMCAzLjEgMS41NSAxLjU1IDAgMCAwIDAtMy4xek0xMSA5LjVWMThoMi43di00LjRjMC0xLjIuNC0yIDEuNS0yczEuNC45IDEuNCAyVjE4SDE5di01YzAtMi41LTEuMy0zLjctMy4yLTMuNy0xLjQgMC0yLjEuNy0yLjQgMS4zVjkuNXoiLz48L3N2Zz4%3D&labelColor=083344" alt="LinkedIn" /></a>
+<a href="https://x.com/jamal09adekunle"><img src="https://img.shields.io/badge/X-DM-334155?style=for-the-badge&logo=x&logoColor=white&labelColor=0F172A" alt="X" /></a>
+<a href="https://bitmates.tech/resume.pdf"><img src="https://img.shields.io/badge/R%C3%A9sum%C3%A9-PDF-DB2777?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTYgMmg4bDYgNnYxM2ExIDEgMCAwIDEtMSAxSDZhMSAxIDAgMCAxLTEtMVYzYTEgMSAwIDAgMSAxLTF6bTcgMS41VjloNS41ek04IDEydjEuNmg4VjEyem0wIDMuNFYxN2g4di0xLjZ6bTAtNi44djEuNmgzLjVWOC42eiIvPjwvc3ZnPg%3D%3D&labelColor=4A0D2C" alt="Résumé" /></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Jamal-09&label=VISITS&color=8B5CF6&style=flat-square" alt="Profile visits" /><br/>
+<sub>CRAFTED IN PIXELS &amp; MOTION BY JAMAL</sub>
+
+</div>
+
+<img src="assets/wave.svg" width="100%" alt="" />
